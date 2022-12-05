@@ -14,6 +14,10 @@ matplotlib = "^3.6.2"
 jupyter = "^1.0.0"
 notebook = "^6.5.2"
 idun-guardian-client-beta = "^0.0.12"
+idun-sdk = {git = "https://github.com/iduntech/idn-internal-sdk", rev = "develop"}
+scipy = "^1.9.3"
+numpy = "^1.23.5"
+pycryptodome = "3.15.0"
 
 
 [tool.poetry.group.dev.dependencies]
