@@ -1,0 +1,17 @@
+05-Dec-22 19:31:35: root - INFO - MEASUREMENT EEG ID: beffd56c-c915-48f5-930d-4c1feee0fcc4
+05-Dec-22 19:31:35: root - INFO - COMMAND ID: beffd56c-c915-48f5-930d-4c1feee0fcca
+05-Dec-22 19:31:35: root - INFO - START CMD: M
+05-Dec-22 19:31:35: root - INFO - STOP CMD: S
+05-Dec-22 19:31:44: root - INFO - [BLE]: Address is 12583D13-4DC9-C518-0885-A207A59B6693
+05-Dec-22 19:31:44: root - INFO - [BLE]: .............................................
+05-Dec-22 19:31:44: root - INFO - [BLE]: Connecting to 12583D13-4DC9-C518-0885-A207A59B6693
+05-Dec-22 19:31:46: root - INFO - [CLIENT]: Start recording
+05-Dec-22 19:31:46: root - INFO - [BLE]: Getting impedance measurement
+05-Dec-22 19:31:46: root - INFO - [BLE]: Impedance display time: 5 seconds
+05-Dec-22 19:31:48: root - INFO - [BLE]: Device connected
+05-Dec-22 19:31:48: root - INFO - [BLE]: Starting impedance measurement
+05-Dec-22 19:31:49: root - INFO - [BLE]: Subscribed to impedance measurement
+05-Dec-22 19:31:50: root - INFO - [BLE]: Sending start impedance command
+05-Dec-22 19:31:51: root - INFO - [BLE]: Displaying impedance measurement
+05-Dec-22 19:31:56: root - INFO - [BLE]: Stopping impedance measurement
+05-Dec-22 19:31:56: root - INFO - [BLE]: Disconnecting from device

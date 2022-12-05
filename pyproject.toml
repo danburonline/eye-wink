@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "capstone-project"
+version = "0.0.1"
+description = "This is the repo for the capstone project of the SIT Academy's Applied Machine Learning bootcamp."
+authors = ["Daniel Burger <public@danielburger.online>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "capstone_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^1.5.2"
+matplotlib = "^3.6.2"
+jupyter = "^1.0.0"
+notebook = "^6.5.2"
+idun-guardian-client-beta = "^0.0.12"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^0.991"
+pylint = "^2.15.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

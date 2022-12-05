@@ -1,0 +1,19 @@
+05-Dec-22 18:49:43: root - INFO - MEASUREMENT EEG ID: beffd56c-c915-48f5-930d-4c1feee0fcc4
+05-Dec-22 18:49:43: root - INFO - COMMAND ID: beffd56c-c915-48f5-930d-4c1feee0fcca
+05-Dec-22 18:49:43: root - INFO - START CMD: M
+05-Dec-22 18:49:43: root - INFO - STOP CMD: S
+05-Dec-22 18:49:48: root - INFO - [BLE]: One IGEB device found, assinging address 8A512035-E69D-A224-1DB1-8EE5A52611E4
+05-Dec-22 18:49:48: root - INFO - [BLE]: Address is 8A512035-E69D-A224-1DB1-8EE5A52611E4
+05-Dec-22 18:49:48: root - INFO - [BLE]: .............................................
+05-Dec-22 18:49:48: root - INFO - [BLE]: Connecting to 8A512035-E69D-A224-1DB1-8EE5A52611E4
+05-Dec-22 18:49:53: root - INFO - [CLIENT]: Start recording
+05-Dec-22 18:49:53: root - INFO - [BLE]: Getting impedance measurement
+05-Dec-22 18:49:53: root - INFO - [BLE]: Impedance display time: 5 seconds
+05-Dec-22 18:49:54: root - INFO - [BLE]: Device connected
+05-Dec-22 18:49:54: root - INFO - [BLE]: Starting impedance measurement
+05-Dec-22 18:49:55: root - INFO - [BLE]: Subscribed to impedance measurement
+05-Dec-22 18:49:56: root - INFO - [BLE]: Sending start impedance command
+05-Dec-22 18:49:57: root - INFO - [BLE]: Displaying impedance measurement
+05-Dec-22 18:50:02: root - INFO - [BLE]: Stopping impedance measurement
+05-Dec-22 18:50:02: root - INFO - [BLE]: Disconnecting from device
+05-Dec-22 18:50:08: root - INFO - [CLIENT]: Disconnect BLE and close websocket connection
