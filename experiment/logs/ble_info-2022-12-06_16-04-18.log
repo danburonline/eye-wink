@@ -1,0 +1,63 @@
+06-Dec-22 16:04:18: root - INFO - MEASUREMENT EEG ID: beffd56c-c915-48f5-930d-4c1feee0fcc4
+06-Dec-22 16:04:18: root - INFO - COMMAND ID: beffd56c-c915-48f5-930d-4c1feee0fcca
+06-Dec-22 16:04:18: root - INFO - START CMD: M
+06-Dec-22 16:04:18: root - INFO - STOP CMD: S
+06-Dec-22 16:04:30: root - INFO - [BLE]: Address is 12583D13-4DC9-C518-0885-A207A59B6693
+06-Dec-22 16:04:30: root - INFO - [BLE]: .............................................
+06-Dec-22 16:04:30: root - INFO - [BLE]: Connecting to 12583D13-4DC9-C518-0885-A207A59B6693
+06-Dec-22 16:04:33: root - INFO - [CLIENT]: Start recording
+06-Dec-22 16:04:33: root - INFO - [BLE]: Getting impedance measurement
+06-Dec-22 16:04:33: root - INFO - [BLE]: Impedance display time: 5 seconds
+06-Dec-22 16:04:34: root - INFO - [BLE]: Device connected
+06-Dec-22 16:04:34: root - INFO - [BLE]: Starting impedance measurement
+06-Dec-22 16:04:35: root - INFO - [BLE]: Subscribed to impedance measurement
+06-Dec-22 16:04:36: root - INFO - [BLE]: Sending start impedance command
+06-Dec-22 16:04:37: root - INFO - [BLE]: Displaying impedance measurement
+06-Dec-22 16:04:42: root - INFO - [BLE]: Stopping impedance measurement
+06-Dec-22 16:04:42: root - INFO - [BLE]: Disconnecting from device
+06-Dec-22 16:04:48: root - INFO - [CLIENT]: Disconnect BLE and close websocket connection
+06-Dec-22 16:05:24: root - INFO - [CLIENT]: Recording timer set to: 125 seconds
+06-Dec-22 16:05:24: root - INFO - [CLIENT]: Start recording
+06-Dec-22 16:05:24: root - INFO - [CLIENT] Recording ID: bc3e0e7c-68c6-4917-80f1-3997b7f9b433
+06-Dec-22 16:05:24: root - INFO - [CLIENT] Experiment description: winking
+06-Dec-22 16:05:26: root - INFO - [BLE]: Searching for MAC address
+06-Dec-22 16:05:27: root - INFO - [BLE] Device ID (based on MAC address is): F3-EB-85-A3-EB-B3
+06-Dec-22 16:05:27: root - INFO - [BLE]: Firmware version: v1.0.1
+06-Dec-22 16:05:27: root - INFO - [API]: Connecting to WS API...
+06-Dec-22 16:05:27: root - INFO - [BLE]: Trying to connect to 12583D13-4DC9-C518-0885-A207A59B6693.....
+06-Dec-22 16:05:28: root - INFO - [API]: Connected to websocket resource url: wss://f1bfprt7h1.execute-api.eu-central-1.amazonaws.com/v1
+06-Dec-22 16:05:28: root - INFO - [API]: Sending data to the cloud
+06-Dec-22 16:05:28: root - INFO - [BLE]: Connecting to 12583D13-4DC9-C518-0885-A207A59B6693
+06-Dec-22 16:05:29: root - INFO - [BLE]: Connected to 12583D13-4DC9-C518-0885-A207A59B6693
+06-Dec-22 16:05:29: root - INFO - [BLE]: Device Connected
+06-Dec-22 16:05:29: root - INFO - [BLE]: Sending start commands
+06-Dec-22 16:05:29: root - INFO - [BLE]: Subscribing to EEG notifications
+06-Dec-22 16:05:30: root - INFO - [BLE]: Subscribing to Battery notifications
+06-Dec-22 16:05:32: root - INFO - [BLE]: Recording successfully started
+06-Dec-22 16:05:32: root - INFO - [API]: First package sent
+06-Dec-22 16:05:32: root - INFO - [API]: data_model.stop = False
+06-Dec-22 16:05:32: root - INFO - [API]: data_model.deviceID = F3-EB-85-A3-EB-B3
+06-Dec-22 16:05:32: root - INFO - [API]: data_model.recordingID = bc3e0e7c-68c6-4917-80f1-3997b7f9b433
+06-Dec-22 16:05:32: root - INFO - [API]: First package receipt: {"EncryptionType":"KMS","SequenceNumber":"49635116068233745658168657776623544428033937056708165634","ShardId":"shardId-000000000000"}
+06-Dec-22 16:06:28: root - INFO - [BLE]: Battery level: 91%
+06-Dec-22 16:07:28: root - INFO - [BLE]: Battery level: 91%
+06-Dec-22 16:07:37: root - INFO - [BLE]: Recording stopped, time reached : 125.17
+06-Dec-22 16:07:37: root - INFO - [BLE]: Time out reached
+06-Dec-22 16:07:38: root - INFO - [BLE]: Stop command loaded into queue
+06-Dec-22 16:07:38: root - INFO - [BLE]: Giving time for API to send last data
+06-Dec-22 16:07:38: root - INFO - [API]: Last package sent
+06-Dec-22 16:07:38: root - INFO - [API]: data_model.stop = True
+06-Dec-22 16:07:38: root - INFO - [API]: data_model.deviceID = F3-EB-85-A3-EB-B3
+06-Dec-22 16:07:38: root - INFO - [API]: data_model.recordingID = bc3e0e7c-68c6-4917-80f1-3997b7f9b433
+06-Dec-22 16:07:38: root - INFO - [API]: Last package receipt: {"EncryptionType":"KMS","SequenceNumber":"49635116068233745658168657829214235432909544142149779458","ShardId":"shardId-000000000000"}
+06-Dec-22 16:07:38: root - INFO - [API]: Cloud connection sucesfully terminated
+06-Dec-22 16:07:38: root - INFO - [API]: Breaking inner loop of API client
+06-Dec-22 16:07:38: root - INFO - [API]: Breakin API client while loop
+06-Dec-22 16:07:38: root - INFO - [API]: -----------  API client is COMPLETED ----------- 
+06-Dec-22 16:07:44: root - INFO - [BLE]: Sending stop command to device
+06-Dec-22 16:07:45: root - INFO - [BLE]: Sending disconnect command to device
+06-Dec-22 16:07:48: root - INFO - [BLE]: Callback function recognised a disconnection.
+06-Dec-22 16:07:51: root - INFO - [BLE]: Recording successfully stopped
+06-Dec-22 16:07:51: root - INFO - [BLE]: Ensuring device is disconnected
+06-Dec-22 16:07:57: root - INFO - [BLE]: -----------  BLE client is COMPLETED ----------- 
+06-Dec-22 16:07:57: root - INFO - [CLIENT]: -----------  All tasks are COMPLETED -----------

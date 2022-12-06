@@ -43,7 +43,7 @@ with open(
             marker = "left"
             writer = csv.writer(f)
             writer.writerow([update.timestamp() + 3600, marker])
-            sleep(1.5)
+            sleep(3)
 
             if platform.system() == "Darwin":  # mac os
                 os.system("say 'right'")
@@ -57,6 +57,20 @@ with open(
             marker = "right"
             writer = csv.writer(f)
             writer.writerow([update.timestamp() + 3600, marker])
-            sleep(1.5)
+            sleep(3)
+
+            if platform.system() == "Darwin":  # mac os
+                os.system("say 'waiting'")
+            elif platform.system() == "Windows":  # windows
+                os.system(
+                    "powershell -Command \"Add-Type –AssemblyName System.Speech; (New-Object System.Speech.Synthesis.SpeechSynthesizer).Speak('waiting')\""
+                )
+
+            # write a waiting marker to csv
+            update = datetime.now()
+            marker = "waiting"
+            writer = csv.writer(f)
+            writer.writerow([update.timestamp() + 3600, marker])
+            sleep(4)
 
         update = datetime.now()
