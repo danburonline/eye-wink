@@ -24,32 +24,34 @@ sound1_init = True
 
 # store markers and send tones
 with open("markers_winking_"+datetime.now().strftime("%d%m%Y_%H%M%S")+".csv", "w") as f:
-
-    sleep(marker1)
     
     while update.timestamp() < start.timestamp() + duration:
 
-        # create marker and play tones and the right time
-        if platform.system() == "Darwin": # mac os
-            os.system("say 'left'")
-        elif platform.system() == "Windows": # windows
-            os.system("powershell -Command \"Add-Type –AssemblyName System.Speech; (New-Object System.Speech.Synthesis.SpeechSynthesizer).Speak('left')\"")  
-        marker = "left"
-        writer = csv.writer(f)
-        writer.writerow([update.timestamp(), marker])
-        sleep(2)
+        if update.timestamp() > start.timestamp() + marker1:
 
-        if platform.system() == "Darwin": # mac os
-            os.system("say 'right'")
-        elif platform.system() == "Windows": # windows
-            os.system("powershell -Command \"Add-Type –AssemblyName System.Speech; (New-Object System.Speech.Synthesis.SpeechSynthesizer).Speak('right')\"")  
-        marker = "right"
-        writer = csv.writer(f)
-        writer.writerow([update.timestamp(), marker])
-        sleep(2)
+            # create marker and play tones and the right time
+            if platform.system() == "Darwin": # mac os
+                os.system("say 'left'")
+            elif platform.system() == "Windows": # windows
+                os.system("powershell -Command \"Add-Type –AssemblyName System.Speech; (New-Object System.Speech.Synthesis.SpeechSynthesizer).Speak('left')\"")  
 
-        # write to csv file
+            # write marker to csv
+            update = datetime.now()
+            marker = "left"
+            writer = csv.writer(f)
+            writer.writerow([update.timestamp()+3600, marker])
+            sleep(1.5)
+
+            if platform.system() == "Darwin": # mac os
+                os.system("say 'right'")
+            elif platform.system() == "Windows": # windows
+                os.system("powershell -Command \"Add-Type –AssemblyName System.Speech; (New-Object System.Speech.Synthesis.SpeechSynthesizer).Speak('right')\"")  
+
+            # write marker to csv
+            update = datetime.now()
+            marker = "right"
+            writer = csv.writer(f)
+            writer.writerow([update.timestamp()+3600, marker])
+            sleep(1.5)
+
         update = datetime.now()
-
-        # this ensures that the marker file is not too large
-        sleep(0.1)
