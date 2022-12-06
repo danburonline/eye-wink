@@ -23,6 +23,7 @@ pycryptodome = "3.15.0"
 [tool.poetry.group.dev.dependencies]
 mypy = "^0.991"
 pylint = "^2.15.8"
+black = "^22.10.0"
 
 [build-system]
 requires = ["poetry-core"]
