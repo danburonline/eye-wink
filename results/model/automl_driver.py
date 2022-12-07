@@ -27,7 +27,6 @@ except Exception as e:
     import time
 
     from automl.client.core.common import utilities
-    from azureml.core.experiment import Experiment
     from azureml.core.run import Run
     from azureml.train.automl import automl
     from azureml.train.automl import fit_pipeline
