@@ -1,0 +1,42 @@
+2022-12-07 10:48:54,212 Connecting to workspace
+2022-12-07 10:48:54,214 Found the config file in: /home/idun/notebooks/idun_Code/idn-auto-ml-pipeline/config.json
+2022-12-07 10:48:54,614 The workspace name is: IDUNAutoML_eval
+2022-12-07 10:48:54,614 Creating model path
+2022-12-07 10:48:54,614 Loading configuration
+2022-12-07 10:48:54,616 Configuration loaded from /home/idun/notebooks/idun_Code/idn-auto-ml-pipeline/ml_data/eye_winking/experiments/winking-exp/model/run_info.yml
+2022-12-07 10:48:54,617 Loading data
+2022-12-07 10:48:54,622 Data loaded from /home/idun/notebooks/idun_Code/idn-auto-ml-pipeline/ml_data/eye_winking/experiments/winking-exp/epoched_metrics/selected_metrics.csv
+2022-12-07 10:48:54,649 Connecting to azure run
+2022-12-07 10:48:54,657 Created a worker pool for first use
+2022-12-07 10:48:55,719 Connected to azure run
+2022-12-07 10:48:55,719 Loading model
+2022-12-07 10:48:56,597 The version of the SDK does not match the version the model was trained on.
+2022-12-07 10:48:56,597 The consistency in the result may not be guaranteed.
+2022-12-07 10:48:56,598 Package:azureml-automl-core, training version:1.47.0, current version:1.45.0
+Package:azureml-automl-runtime, training version:1.47.0, current version:1.45.0
+Package:azureml-core, training version:1.47.0, current version:1.45.0.post1
+Package:azureml-dataprep, training version:4.5.7, current version:4.2.2
+Package:azureml-dataprep-rslex, training version:2.11.4, current version:2.8.1
+Package:azureml-dataset-runtime, training version:1.47.0, current version:1.45.0
+Package:azureml-interpret, training version:1.47.0, current version:1.45.0
+Package:azureml-mlflow, training version:1.47.0, current version:1.45.0
+Package:azureml-telemetry, training version:1.47.0, current version:1.45.0
+Package:azureml-train-automl-client, training version:1.47.0, current version:1.45.0
+Package:azureml-train-automl-runtime, training version:1.47.0, current version:1.45.0.post1
+Package:azureml-train-core, training version:1.47.0, current version:1.45.0
+Package:azureml-train-restclients-hyperdrive, training version:1.47.0, current version:1.45.0
+Package:azureml-training-tabular, training version:1.47.0, current version:1.45.0
+2022-12-07 10:48:56,598 Below packages were used for model training but missing in current environment:
+2022-12-07 10:48:56,598 Package:azureml-defaults, training version:1.47.0
+Package:azureml-inference-server-http, training version:0.7.6
+Package:azureml-pipeline-core, training version:1.47.0
+Package:azureml-responsibleai, training version:1.47.0
+2022-12-07 10:48:56,598 Please ensure the version of your local conda dependencies match the version on which your model was trained in order to properly retrieve your model.
+2022-12-07 10:49:03,679 Model is stored and loaded from /home/idun/notebooks/idun_Code/idn-auto-ml-pipeline/ml_data/eye_winking/experiments/winking-exp/model/model.pkl
+2022-12-07 10:49:03,680 Evaluating model
+2022-12-07 10:49:09,266 Downloading metrics
+2022-12-07 10:49:10,349 Metrics downloaded
+2022-12-07 10:49:10,350 Plotting confusion matrix
+2022-12-07 10:49:10,576 Confusion matrix plotted
+2022-12-07 10:49:10,577 Plotting confusion matrix
+2022-12-07 10:49:10,693 Accuracy of the model on all the data: 1.0

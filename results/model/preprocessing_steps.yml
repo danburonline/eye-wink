@@ -1,0 +1,10 @@
+parameters:
+  high_cut_freq: 40.0
+  low_cut_freq: 1.0
+  notch_freq: 50.0
+steps:
+  highpass_filter: 0
+  lowpass_filter: 1
+  notch_filter: 0
+  remove_mean: 1
+  smoothing: 0

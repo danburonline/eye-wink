@@ -1,0 +1,11 @@
+compute_target: idun
+dataset_name: winking-dataset
+experiment_name: winking-exp
+iteration_timeout_minutes: 8
+iterations: 40
+label_column_name: classes
+max_concurrent_iterations: 4
+n_cross_validations: 5
+primary_metric: accuracy
+run_id: AutoML_0b523041-9f54-4052-aca3-295302760c8b
+task: classification

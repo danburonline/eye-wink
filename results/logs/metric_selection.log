@@ -1,0 +1,70 @@
+2022-12-07 10:08:00,200 data_index: 0
+data_title: IDUN_GDK
+dataset_name: winking_dataset
+event_labels:
+- left
+- right
+- waiting
+group_labels: false
+groups:
+  left:
+  - left
+  right:
+  - right
+  waiting:
+  - waiting
+labels_index: 0
+labels_title: Markers
+sampling_rate: 250
+time_after_event_seconds: 4
+time_before_event_seconds: 0
+
+2022-12-07 10:08:00,200 Uploading data
+2022-12-07 10:08:00,208 The head of the dataframe is:
+2022-12-07 10:08:00,208      rms_14  max_gradients_14  ...  classes  subjects
+0  2.426420          0.107176  ...      1.0       0.0
+1  2.491285          0.126976  ...      1.0       0.0
+2  2.390430          0.098903  ...      1.0       0.0
+3  2.826835          0.114267  ...      1.0       0.0
+4  2.988840          0.122508  ...      1.0       0.0
+
+[5 rows x 57 columns]
+2022-12-07 10:08:00,331 Low variance selection
+2022-12-07 10:08:01,156 The following metrics have a standard deviation below the threshold: ['zero_crossing_rate_812' 'zero_crossing_rate_1325'
+ 'zero_crossing_rate_2545']
+2022-12-07 10:08:01,156 Target correlation selection
+2022-12-07 10:08:01,973 The following metrics have a correlation with the target variable below the threshold: ['max_gradients_14' 'zero_crossing_rate_14' 'skew_14' 'kurt_14'
+ 'max_gradients_48' 'zero_crossing_rate_48' 'abs_mean_48'
+ 'zero_crossing_rate_812' 'mean_1325' 'skew_1325'
+ 'zero_crossing_rate_2545' 'pink_mean']
+2022-12-07 10:08:01,974 ['max_gradients_14' 'zero_crossing_rate_14' 'skew_14' 'kurt_14'
+ 'max_gradients_48' 'zero_crossing_rate_48' 'abs_mean_48'
+ 'zero_crossing_rate_812' 'mean_1325' 'skew_1325'
+ 'zero_crossing_rate_2545' 'pink_mean']
+2022-12-07 10:08:01,974 Pairwise correlation selection
+2022-12-07 10:08:02,038 The following metrics have a pairwise correlation above the threshold: ['abs_std_2545' 'abs_std_1325' 'rms_812' 'abs_std_48' 'abs_std_14'
+ 'abs_mean_812' 'max_gradients_2545' 'rms_1325' 'rms_48' 'abs_std_812'
+ 'max_gradients_812' 'rms_2545' 'abs_mean_14' 'band_pwr_48' 'abs_mean_48'
+ 'band_pwr_14' 'abs_mean_1325' 'band_pwr_2545' 'rms_14' 'max_gradients_48'
+ 'abs_mean_2545' 'max_gradients_14' 'band_pwr_1325' 'max_gradients_1325'
+ 'pink_mean' 'lowpassed_maximum_gradient']
+2022-12-07 10:08:03,172 Random Forest selection
+2022-12-07 10:08:05,281 The following metrics have a feature importance below the threshold: []
+2022-12-07 10:08:06,065 Final selection
+2022-12-07 10:08:06,065 The following metrics will be removed: ['abs_mean_1325' 'abs_mean_14' 'abs_mean_2545' 'abs_mean_48'
+ 'abs_mean_812' 'abs_std_1325' 'abs_std_14' 'abs_std_2545' 'abs_std_48'
+ 'abs_std_812' 'band_pwr_1325' 'band_pwr_14' 'band_pwr_2545' 'band_pwr_48'
+ 'kurt_14' 'lowpassed_maximum_gradient' 'max_gradients_1325'
+ 'max_gradients_14' 'max_gradients_2545' 'max_gradients_48'
+ 'max_gradients_812' 'mean_1325' 'pink_mean' 'rms_1325' 'rms_14'
+ 'rms_2545' 'rms_48' 'rms_812' 'skew_1325' 'skew_14'
+ 'zero_crossing_rate_1325' 'zero_crossing_rate_14'
+ 'zero_crossing_rate_2545' 'zero_crossing_rate_48'
+ 'zero_crossing_rate_812']
+2022-12-07 10:08:06,065 From a total of 57 metrics
+2022-12-07 10:08:06,067 Selected 21 metrics
+2022-12-07 10:08:06,067 The following metrics have been selected: ['mean_14' 'var_14' 'mean_48' 'var_48' 'skew_48' 'kurt_48' 'mean_812'
+ 'var_812' 'skew_812' 'kurt_812' 'var_1325' 'kurt_1325' 'mean_2545'
+ 'var_2545' 'skew_2545' 'kurt_2545' 'band_pwr_812' 'white_mean'
+ 'lowpassed_peak_to_peak_y' 'lowpassed_peak_to_peak_x' 'classes']
+2022-12-07 10:08:06,067 Saving selected metrics

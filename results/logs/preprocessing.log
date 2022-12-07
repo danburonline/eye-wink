@@ -1,0 +1,28 @@
+2022-12-07 10:02:30,634 Configuration file uploaded with contents :
+2022-12-07 10:02:30,726 Raw epochs dataframe uploaded
+2022-12-07 10:02:30,727 Summary of the raw epochs dataframe
+2022-12-07 10:02:30,727 Shape of the epoch dataframe with subject id and classes: (280, 1002)
+2022-12-07 10:02:30,733 Shape of the epoch array without subject id and classes: (280, 1000)
+2022-12-07 10:02:30,734 Sampling rate: 250 
+2022-12-07 10:02:30,734 Lowpass filter is being applied at 40.0 Hz
+2022-12-07 10:02:30,734 Mean will be removed
+2022-12-07 10:02:30,883 Preprocessing done, creating dataframes
+2022-12-07 10:02:30,885 Summary of the preprocessed epochs dataframe
+2022-12-07 10:02:32,968 The epochs have been extracted and the output is being saved
+2022-12-07 10:02:32,968 Intra subject variability is being plotted
+2022-12-07 10:02:33,137 The inter subject variability is being plotted
+2022-12-07 10:02:33,298 Saving preprocessed_epoch_data as a csv file
+2022-12-07 10:06:12,574 Configuration file uploaded with contents :
+2022-12-07 10:06:12,664 Raw epochs dataframe uploaded
+2022-12-07 10:06:12,664 Summary of the raw epochs dataframe
+2022-12-07 10:06:12,664 Shape of the epoch dataframe with subject id and classes: (280, 1002)
+2022-12-07 10:06:12,669 Shape of the epoch array without subject id and classes: (280, 1000)
+2022-12-07 10:06:12,669 Sampling rate: 250 
+2022-12-07 10:06:12,669 Lowpass filter is being applied at 40.0 Hz
+2022-12-07 10:06:12,669 Mean will be removed
+2022-12-07 10:06:12,811 Preprocessing done, creating dataframes
+2022-12-07 10:06:12,813 Summary of the preprocessed epochs dataframe
+2022-12-07 10:06:14,871 The epochs have been extracted and the output is being saved
+2022-12-07 10:06:14,871 Intra subject variability is being plotted
+2022-12-07 10:06:16,596 The inter subject variability is being plotted
+2022-12-07 10:06:16,781 Saving preprocessed_epoch_data as a csv file

@@ -1,0 +1,21 @@
+metrics_required:
+- mean_14
+- var_14
+- mean_48
+- var_48
+- skew_48
+- kurt_48
+- mean_812
+- var_812
+- skew_812
+- kurt_812
+- var_1325
+- kurt_1325
+- mean_2545
+- var_2545
+- skew_2545
+- kurt_2545
+- band_pwr_812
+- white_mean
+- lowpassed_peak_to_peak_y
+- lowpassed_peak_to_peak_x
