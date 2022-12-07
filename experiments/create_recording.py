@@ -78,7 +78,7 @@ if recording_type == "1":
         filling = True
         while filling:
             impedance = input("\nImpedance:                                    ")
-            environment = input("\nTesting Environemnt:                          ")
+            environment = input("\nTesting Environment:                          ")
             comfort = input(
                 "\nComfort of the device \n(1-10; 1=painful, 10=very comfortable):       "
             )
@@ -145,7 +145,7 @@ elif recording_type == "2":
         filling = True
         while filling:
             impedance = input("\nImpedance:                                    ")
-            environment = input("\nTesting Environemnt:                          ")
+            environment = input("\nTesting Environment:                          ")
             comfort = input(
                 "\nComfort of the device \n(1-10; 1=painful, 10=very comfortable):       "
             )
@@ -184,7 +184,7 @@ elif recording_type == "3":
         filling = True
         while filling:
             impedance = input("\nImpedance:                                    ")
-            environment = input("\nTesting Environemnt:                          ")
+            environment = input("\nTesting Environment:                          ")
             comfort = input(
                 "\nComfort of the device \n(1-10; 1=painful, 10=very comfortable):       "
             )
@@ -232,7 +232,7 @@ elif recording_type == "4":
         filling = True
         while filling:
             impedance = input("\nImpedance:                                    ")
-            environment = input("\nTesting Environemnt:                          ")
+            environment = input("\nTesting Environment:                          ")
             comfort = input(
                 "\nComfort of the device \n(1-10; 1=painful, 10=very comfortable):       "
             )
