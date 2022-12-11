@@ -6,7 +6,8 @@ This repository contains the code for the project eye wink classifier, which was
 
 ## Workflow
 
-> **Note:** The following workflow overview is a high-level summary. For more details, please refer to the [presentation](/presentation/presentation.pdf).
+> **Note**
+> The following workflow overview is a high-level summary. For more details, please refer to the [presentation](/presentation/presentation.pdf).
 
 1. **Feasibility:** The initial phase of the project involved conducting a feasibility study to assess the presence of patterns in processed and transformed neural signals. I was pleased to discover discernible patterns, indicating the potential viability of developing a classifier to identify them.
 
@@ -24,10 +25,10 @@ This repository contains the code for the project eye wink classifier, which was
 
 One of the key insights I have gained from this project is the difficulty of collecting neural signal data in a controlled manner, highlighting the challenges of generating datasets for machine learning applications in the domain of brain-computer interfaces (BCI). This emphasises the importance of carefully designing and executing the data collection process in order to obtain high-quality and relevant data for training and evaluating BCI models.
 
-## Next steps
+### Next steps
 
 I plan to generate a larger dataset and devote more time to model selection to avoid relying too heavily on automated methods for this task in the future. This will enable a more thorough exploration of potential model architectures and hyperparameter settings, allowing for the identification of the most promising models for further development and evaluation.
 
-## Disclaimer
+### Disclaimer
 
 Unfortunately, due to strict IP constraints, I am unable to share the details of the AutoML pipeline and preprocessing steps used in this project. These methods are proprietary technology owned by the company, and I am not permitted to disclose them publicly. As a result, they are not included in this repository.
