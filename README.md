@@ -7,7 +7,7 @@ This repository contains the code for the project eye wink classifier, which was
 ## Workflow
 
 > **Note**
-> The following workflow overview is a high-level summary. For more details, please refer to the [presentation](/presentation/presentation.pdf).
+> The following workflow overview is a high-level summary. For more details as well as figures and graphs, please refer to the [presentation](/presentation/presentation.pdf) document inside the presentation directory.
 
 1. **Feasibility:** The initial phase of the project involved conducting a feasibility study to assess the presence of patterns in processed and transformed neural signals. I was pleased to discover discernible patterns, indicating the potential viability of developing a classifier to identify them.
 
