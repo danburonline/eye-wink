@@ -23,6 +23,8 @@ This repository contains the code for the project eye wink classifier, which was
 
 ## Conclusion
 
+![A graph showing the processed neural signal overlaid to a baseline recording](/docs/imgs/exploration.png)
+
 One of the key insights I have gained from this project is the difficulty of collecting neural signal data in a controlled manner, highlighting the challenges of generating datasets for machine learning applications in the domain of brain-computer interfaces (BCI). This emphasises the importance of carefully designing and executing the data collection process in order to obtain high-quality and relevant data for training and evaluating BCI models.
 
 ### Next steps
