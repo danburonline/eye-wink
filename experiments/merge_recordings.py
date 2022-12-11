@@ -1,7 +1,7 @@
 """This script merges the markers.csv and eeg.csv files into a single file"""
 import csv
 
-# Set the maximum difference in timestamp between the markers and eeg data
+# Set the maximum difference in timestamp between the markers and EEG data
 # to consider them "aligned"
 MAX_TIMESTAMP_DIFF = 0.1
 
@@ -28,18 +28,18 @@ with open("eeg.csv") as f:
         eeg_data.append((timestamp, ch1))
 
 merged = []
-marker_index = 0
+MARKER_INDEX = 0
 for timestamp, ch1 in eeg_data:
     # If the timestamp of the current marker is within the maximum
     # allowed difference from the timestamp of the current eeg data,
     # and if the marker_index is within the bounds of the markers list,
     # append the marker to the merged data
     if (
-        marker_index < len(markers)
-        and abs(timestamp - markers[marker_index][0]) < MAX_TIMESTAMP_DIFF
+        MARKER_INDEX < len(markers)
+        and abs(timestamp - markers[MARKER_INDEX][0]) < MAX_TIMESTAMP_DIFF
     ):
-        merged.append((timestamp, ch1, markers[marker_index][1]))
-        marker_index += 1
+        merged.append((timestamp, ch1, markers[MARKER_INDEX][1]))
+        MARKER_INDEX += 1
     else:
         merged.append((timestamp, ch1))
 

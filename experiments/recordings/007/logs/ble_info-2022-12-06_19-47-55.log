@@ -54,11 +54,11 @@
 06-Dec-22 19:50:43: root - INFO - [API]: Cloud connection sucesfully terminated
 06-Dec-22 19:50:43: root - INFO - [API]: Breaking inner loop of API client
 06-Dec-22 19:50:43: root - INFO - [API]: Breakin API client while loop
-06-Dec-22 19:50:43: root - INFO - [API]: -----------  API client is COMPLETED ----------- 
+06-Dec-22 19:50:43: root - INFO - [API]: -----------  API client is COMPLETED -----------
 06-Dec-22 19:50:49: root - INFO - [BLE]: Sending stop command to device
 06-Dec-22 19:50:50: root - INFO - [BLE]: Sending disconnect command to device
 06-Dec-22 19:50:53: root - INFO - [BLE]: Callback function recognised a disconnection.
 06-Dec-22 19:50:56: root - INFO - [BLE]: Recording successfully stopped
 06-Dec-22 19:50:56: root - INFO - [BLE]: Ensuring device is disconnected
-06-Dec-22 19:51:02: root - INFO - [BLE]: -----------  BLE client is COMPLETED ----------- 
+06-Dec-22 19:51:02: root - INFO - [BLE]: -----------  BLE client is COMPLETED -----------
 06-Dec-22 19:51:02: root - INFO - [CLIENT]: -----------  All tasks are COMPLETED -----------

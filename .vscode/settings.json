@@ -1,11 +1,21 @@
 {
   "cSpell.words": [
+    "automl",
     "azureml",
     "bootcamp",
+    "Conda",
+    "csvfile",
+    "EOEC",
     "highpass",
+    "igeb",
+    "linewidth",
+    "lowpass",
+    "lowpassed",
     "matplotlib",
     "mlflow",
     "pyplot",
+    "timeseries",
+    "vlines",
     "xlabel",
     "ylabel"
   ]

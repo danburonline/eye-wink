@@ -3,7 +3,7 @@
 2022-12-07 10:02:30,727 Summary of the raw epochs dataframe
 2022-12-07 10:02:30,727 Shape of the epoch dataframe with subject id and classes: (280, 1002)
 2022-12-07 10:02:30,733 Shape of the epoch array without subject id and classes: (280, 1000)
-2022-12-07 10:02:30,734 Sampling rate: 250 
+2022-12-07 10:02:30,734 Sampling rate: 250
 2022-12-07 10:02:30,734 Lowpass filter is being applied at 40.0 Hz
 2022-12-07 10:02:30,734 Mean will be removed
 2022-12-07 10:02:30,883 Preprocessing done, creating dataframes
@@ -17,7 +17,7 @@
 2022-12-07 10:06:12,664 Summary of the raw epochs dataframe
 2022-12-07 10:06:12,664 Shape of the epoch dataframe with subject id and classes: (280, 1002)
 2022-12-07 10:06:12,669 Shape of the epoch array without subject id and classes: (280, 1000)
-2022-12-07 10:06:12,669 Sampling rate: 250 
+2022-12-07 10:06:12,669 Sampling rate: 250
 2022-12-07 10:06:12,669 Lowpass filter is being applied at 40.0 Hz
 2022-12-07 10:06:12,669 Mean will be removed
 2022-12-07 10:06:12,811 Preprocessing done, creating dataframes

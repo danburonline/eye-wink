@@ -1,15 +1,12 @@
+"""Original file to create the recording, didn't work in the end"""
 import asyncio
-from idun_guardian_client_beta import GuardianClient
 import csv
 from datetime import datetime
 import subprocess
 import os
+from idun_guardian_client_beta import GuardianClient
 
-# clear workspace
 os.system("clear")
-print(
-    "\n\n################################################\n### IDUN INTERNAL TESTING OF IGEB - nov 2022 ###\n################################################\n\n"
-)
 
 
 # # # # # # # # # SEARCH # # # # # # # # # # # # #
@@ -41,13 +38,13 @@ print("\nIDUN*IDUN*IDUN*IDUN*IDUN*IDUN\nIDUN*IDUN*IDUN*IDUN*IDUN*IDUN\n")
 check_impedance = input("Press ENTER to display impedance\n")
 
 IMPEDANCE_DURATION = 5  # duration of impedance measurement in seconds
-MAINS_FREQUENCY_60Hz = False
+MAINS_FREQUENCY_60HZ = False
 # mains frequency in Hz (50 or 60), for Europe 50Hz, for US 60Hz
 
 # display impedance
 asyncio.run(
     bci.start_impedance(
-        impedance_display_time=IMPEDANCE_DURATION, mains_freq_60hz=MAINS_FREQUENCY_60Hz
+        impedance_display_time=IMPEDANCE_DURATION, mains_freq_60hz=MAINS_FREQUENCY_60HZ
     )
 )
 
@@ -75,8 +72,8 @@ if recording_type == "1":
         newline="",
     ) as csvfile:
         writer = csv.writer(csvfile)
-        filling = True
-        while filling:
+        FILLING = True
+        while FILLING:
             impedance = input("\nImpedance:                                    ")
             environment = input("\nTesting Environment:                          ")
             comfort = input(
@@ -89,35 +86,35 @@ if recording_type == "1":
             writer.writerow(["Impedance", impedance])
             writer.writerow(["Testing Environment", environment])
             writer.writerow(["Comfort Rating", comfort])
-            filling = False
+            FILLING = False
 
     # get enter key press
-    waitforinput = input("\nPress Enter When You Are Ready To Go To Sleep\n")
+    WAIT_FOR_INPUT = input("\nPress Enter When You Are Ready To Go To Sleep\n")
 
     # get starting timestamp
     start = datetime.now()
     update = datetime.now()
 
     # marker name
-    marker = "going_to_sleep"
+    MARKER = "going_to_sleep"
 
     # check key press and store marker timestamp
     with open(
         "markers_sleep_" + datetime.now().strftime("%d%m%Y_%H%M%S") + ".csv", "w"
     ) as f:
 
-        filling = True
-        while filling:
-            marker = "going_to_sleep"
+        FILLING = True
+        while FILLING:
+            MARKER = "going_to_sleep"
 
             writer = csv.writer(f)
-            writer.writerow([update.timestamp(), marker])
+            writer.writerow([update.timestamp(), MARKER])
 
             print("\n\n* * * * * * * * * *")
             print("HAVE A GOOD NIGHT !")
             print("* * * * * * * * * *\n\n")
 
-            filling = False
+            FILLING = False
 
     # start a recording session
     asyncio.run(
@@ -142,8 +139,8 @@ elif recording_type == "2":
         newline="",
     ) as csvfile:
         writer = csv.writer(csvfile)
-        filling = True
-        while filling:
+        FILLING = True
+        while FILLING:
             impedance = input("\nImpedance:                                    ")
             environment = input("\nTesting Environment:                          ")
             comfort = input(
@@ -156,7 +153,7 @@ elif recording_type == "2":
             writer.writerow(["Impedance", impedance])
             writer.writerow(["Testing Environment", environment])
             writer.writerow(["Comfort Rating", comfort])
-            filling = False
+            FILLING = False
 
     # start a recording session
     asyncio.run(
@@ -181,8 +178,8 @@ elif recording_type == "3":
         newline="",
     ) as csvfile:
         writer = csv.writer(csvfile)
-        filling = True
-        while filling:
+        FILLING = True
+        while FILLING:
             impedance = input("\nImpedance:                                    ")
             environment = input("\nTesting Environment:                          ")
             comfort = input(
@@ -198,7 +195,7 @@ elif recording_type == "3":
             writer.writerow(["Impedance", impedance])
             writer.writerow(["Testing Environment", environment])
             writer.writerow(["Comfort Rating", comfort])
-            filling = False
+            FILLING = False
 
     # start subprocess (the actual experiment script)
     p = subprocess.Popen(["python", "alpha_markers.py"], shell=False)
@@ -229,8 +226,8 @@ elif recording_type == "4":
         newline="",
     ) as csvfile:
         writer = csv.writer(csvfile)
-        filling = True
-        while filling:
+        FILLING = True
+        while FILLING:
             impedance = input("\nImpedance:                                    ")
             environment = input("\nTesting Environment:                          ")
             comfort = input(
@@ -246,7 +243,7 @@ elif recording_type == "4":
             writer.writerow(["Impedance", impedance])
             writer.writerow(["Testing Environment", environment])
             writer.writerow(["Comfort Rating", comfort])
-            filling = False
+            FILLING = False
 
     # start subprocess (the actual experiment script)
     p = subprocess.Popen(["python", "winking_markers.py"], shell=False)

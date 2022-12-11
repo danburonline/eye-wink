@@ -1,5 +1,5 @@
 2022-12-07 10:07:24,437 The upload path is: /home/idun/notebooks/idun_Code/idn-auto-ml-pipeline/ml_data/eye_winking/experiments/winking-exp/epoched_data/preprocessed_epoch_data.csv
-2022-12-07 10:07:24,537 The shape of the epoch dataframe is: (280, 1002) 
+2022-12-07 10:07:24,537 The shape of the epoch dataframe is: (280, 1002)
 2022-12-07 10:07:24,537 The head of the epoch dataframe is:            0          1          2          3  ...        998        999  classes  subjects
 0 -12.366208 -12.146670 -11.495634 -10.675417  ...  16.670054  16.673163      1.0       0.0
 1 -12.551305 -10.656899  -9.048893  -8.017286  ...  13.771165  13.881369      1.0       0.0
@@ -7,8 +7,8 @@
 3 -16.456744 -13.856852 -11.451350  -9.972541  ...   9.917394   9.990818      1.0       0.0
 4  14.024374  12.697143  10.897638   7.963982  ...  -1.253587  -1.319624      1.0       0.0
 
-[5 rows x 1002 columns] 
-2022-12-07 10:07:24,733 The standard metrics required initially are: ['rms_14', 'max_gradients_14', 'zero_crossing_rate_14', 'mean_14', 'abs_mean_14', 'var_14', 'skew_14', 'kurt_14', 'abs_std_14', 'rms_48', 'max_gradients_48', 'zero_crossing_rate_48', 'mean_48', 'abs_mean_48', 'var_48', 'skew_48', 'kurt_48', 'abs_std_48', 'rms_812', 'max_gradients_812', 'zero_crossing_rate_812', 'mean_812', 'abs_mean_812', 'var_812', 'skew_812', 'kurt_812', 'abs_std_812', 'rms_1325', 'max_gradients_1325', 'zero_crossing_rate_1325', 'mean_1325', 'abs_mean_1325', 'var_1325', 'skew_1325', 'kurt_1325', 'abs_std_1325', 'rms_2545', 'max_gradients_2545', 'zero_crossing_rate_2545', 'mean_2545', 'abs_mean_2545', 'var_2545', 'skew_2545', 'kurt_2545', 'abs_std_2545', 'band_pwr_14', 'band_pwr_48', 'band_pwr_812', 'band_pwr_1325', 'band_pwr_2545', 'white_mean', 'pink_mean', 'lowpassed_peak_to_peak_y', 'lowpassed_peak_to_peak_x', 'lowpassed_maximum_gradient'] 
+[5 rows x 1002 columns]
+2022-12-07 10:07:24,733 The standard metrics required initially are: ['rms_14', 'max_gradients_14', 'zero_crossing_rate_14', 'mean_14', 'abs_mean_14', 'var_14', 'skew_14', 'kurt_14', 'abs_std_14', 'rms_48', 'max_gradients_48', 'zero_crossing_rate_48', 'mean_48', 'abs_mean_48', 'var_48', 'skew_48', 'kurt_48', 'abs_std_48', 'rms_812', 'max_gradients_812', 'zero_crossing_rate_812', 'mean_812', 'abs_mean_812', 'var_812', 'skew_812', 'kurt_812', 'abs_std_812', 'rms_1325', 'max_gradients_1325', 'zero_crossing_rate_1325', 'mean_1325', 'abs_mean_1325', 'var_1325', 'skew_1325', 'kurt_1325', 'abs_std_1325', 'rms_2545', 'max_gradients_2545', 'zero_crossing_rate_2545', 'mean_2545', 'abs_mean_2545', 'var_2545', 'skew_2545', 'kurt_2545', 'abs_std_2545', 'band_pwr_14', 'band_pwr_48', 'band_pwr_812', 'band_pwr_1325', 'band_pwr_2545', 'white_mean', 'pink_mean', 'lowpassed_peak_to_peak_y', 'lowpassed_peak_to_peak_x', 'lowpassed_maximum_gradient']
 2022-12-07 10:07:24,737 Extracting metrics from epochs. This may take a few minutes.
 2022-12-07 10:07:38,522 Extracting bonus metrics from epochs.
 2022-12-07 10:07:38,523 The head of the metrics dataframe is:      rms_14 max_gradients_14  ... classes subjects

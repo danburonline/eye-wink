@@ -1,7 +1,8 @@
+"""File to be executed by the automl_driver.py script"""
 import json
 import os
 
-from azureml.core.workspace import Workspace
+# from azureml.core.workspace import Workspace
 
 print("Starting the automl_driver setup...")
 script_directory = None
@@ -10,7 +11,6 @@ import sys
 import traceback
 
 try:
-    from azureml.train.automl._remote_script import setup_wrapper
     from azureml.train.automl._remote_script import driver_wrapper
 except Exception as e:
     print(
@@ -68,9 +68,9 @@ except Exception as e:
             validate_training_data_dict,
         )
 
-        sdk_has_validate_data_dict = True
+        SDK_HAS_VALIDATE_DATA_DICT = True
     except:
-        sdk_has_validate_data_dict = False
+        SDK_HAS_VALIDATE_DATA_DICT = False
 
     try:
         from automl.client.core.common.logging_utilities import log_traceback
@@ -513,7 +513,7 @@ except Exception as e:
         print(
             "caching supported {}".format(sdk_has_cache_capability and found_data_store)
         )
-        if sdk_has_validate_data_dict:
+        if SDK_HAS_VALIDATE_DATA_DICT:
             # The newest version of validate_training_data_dict should contains check_x_y
             logger.info("Using validate_training_data_dict now.")
             validate_training_data_dict(

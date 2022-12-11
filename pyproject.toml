@@ -18,6 +18,8 @@ idun-sdk = {git = "https://github.com/iduntech/idn-internal-sdk", rev = "develop
 scipy = "^1.9.3"
 numpy = "^1.23.5"
 pycryptodome = "3.15.0"
+azureml = "^0.2.7"
+mlflow = "^2.0.1"
 
 
 [tool.poetry.group.dev.dependencies]
